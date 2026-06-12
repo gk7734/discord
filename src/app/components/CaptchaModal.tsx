@@ -8,7 +8,6 @@ import HCaptcha from "@hcaptcha/react-hcaptcha";
 import {useCallback, useRef} from "react";
 import axios from "axios";
 import {useCaptchaStore, useModalStore} from "@/app/store/useStore";
-import {is} from "immutable";
 
 const CaptchaModal = () => {
     const captchaRef = useRef(null);
